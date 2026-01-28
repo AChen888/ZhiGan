@@ -21,17 +21,27 @@ Target DLL:      Segger\JL2CM3.dll V2.99.31.0
 Dialog DLL:      TCM.DLL V1.36.1.0
  
 <h2>Project:</h2>
-C:\Users\m1321\Desktop\project\Refactor_the_code\Refactor_gasViewer V1.3.0\Refactor_gasViewer V1.3.0\MDK-ARM\Refactor_ gasViewer.uvprojx
+C:\Users\m1321\Desktop\project\Refactor_the_code\Refactor_gasViewer V1.3.0_git\Refactor_gasViewer\MDK-ARM\Refactor_ gasViewer.uvprojx
 Project File Date:  01/27/2026
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Embed\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Refactor_ gasViewer'
 compiling ui_font24.c...
+compiling rtc.c...
+../Core/Src/rtc.c(44): warning:  #177-D: variable "DateToUpdate"  was declared but never referenced
+  	RTC_DateTypeDef DateToUpdate = {0};
+../Core/Src/rtc.c(224): warning:  #177-D: variable "p"  was declared but never referenced
+      uint8_t *p;
+../Core/Src/rtc.c(225): warning:  #177-D: variable "i"  was declared but never referenced
+      uint16_t i;
+../Core/Src/rtc.c(226): warning:  #177-D: variable "sum"  was declared but never referenced
+      uint32_t sum = 0;
+../Core/Src/rtc.c: 4 warnings, 0 errors
 linking...
-Program Size: Code=75480 RO-data=35100 RW-data=4956 ZI-data=28692  
+Program Size: Code=75576 RO-data=35100 RW-data=4956 ZI-data=28692  
 FromELF: creating hex file...
-"Refactor_ gasViewer\Refactor_V1_3_0.axf" - 0 Error(s), 0 Warning(s).
+"Refactor_ gasViewer\Refactor_V1_3_0.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -54,7 +64,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.1.2
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:18
 </pre>
 </body>
 </html>

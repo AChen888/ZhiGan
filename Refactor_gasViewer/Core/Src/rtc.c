@@ -258,7 +258,7 @@ uint8_t RestoreTimeFromFRAM(void)
     // 从铁电读取
     if(fs_fram_read_nbyte((uint16_t)FRAM_ADDR_TIME,(uint8_t *)(&dt),sizeof(dt)) == 0)										//铁电读
         return 0;  // 读取失败
-//		SEGGER_RTT_printf(0,"read:nian=%d,yue=%d,ri=%d,shi=%d,fen=%d,miao=%d\r\n",dt.Year,dt.Month,dt.Day,dt.Hours,dt.Minutes,dt.Seconds);
+		SEGGER_RTT_printf(0,"read:nian=%d,yue=%d,ri=%d,shi=%d,fen=%d,miao=%d\r\n",dt.Year,dt.Month,dt.Day,dt.Hours,dt.Minutes,dt.Seconds);
     // 设置RTC时间
     LocalTime_SetRTC(&dt);
     
