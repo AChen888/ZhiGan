@@ -1,0 +1,17 @@
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+refactor_ gasviewer\event_groups.o: D:\Embed\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+refactor_ gasviewer\event_groups.o: D:\Embed\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+refactor_ gasviewer\event_groups.o: D:\Embed\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+refactor_ gasviewer\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+refactor_ gasviewer\event_groups.o: ../RTT/SEGGER_RTT.h
+refactor_ gasviewer\event_groups.o: ../RTT/SEGGER_RTT_Conf.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+refactor_ gasviewer\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
